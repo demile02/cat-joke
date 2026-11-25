@@ -9,10 +9,11 @@ the only bug-free commit of the week, plus three files named asdf.
 import os
 from pathlib import Path
 
+FILES = "three new files named \u2018asdf\u2019"
 PARTS = [
     "My cat reviewed my code by walking across the keyboard \u2014 ",
     "it was the only commit that week with no bugs ",
-    "and three new files named \u2018asdf\u2019.",
+    f"and {FILES}.",
 ]
 
 
